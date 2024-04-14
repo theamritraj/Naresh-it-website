@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+
+    <style>
+   section{
+    height: 400px;
+   }
+   /* .m-4{
+    margin-left: 150px;
+   } */
+</style>
+</head>
+<body class="container-fluid">
+    <section class="d-flex justify-content-center align-content-center m-4">
+        <form class="border border-1 bg-danger text-white border-dark rounded rounded-2 p-4 w-30">
+            <h3 class="bi bi-person-fill align-content-center m-5">Please Login your Account</h3>
+            <div class="mb-4 input-group">
+                <span class="bi bi-person input-group-text"></span>
+                <label class="form-label" for="UserName"></label>
+                <input type="text" placeholder="User Namae" class="form-control" name="UserName">
+                <span class="bi bi-star-fill input-group-text"></span>
+            </div>
+            <div class="mb-4 input-group">
+                <span class="bi bi-key input-group-text"></span>
+                <label class="form-label" for="password"></label>
+                <input type="password" placeholder="Password" class="form-control" name="UserName">
+                <span class="bi bi-star-fill input-group-text"></span>
+            </div>
+          <div class=" m-4">
+            <button class="btn btn-warning w-25 mx-4">Signup</button>
+
+            <button class="btn btn-success w-25 ms-4" >Signin</button>
+
+          </div>
+        </form>
+</body>
+</html>

@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>carousel bootstrap</title>
+  <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+<body>
+  <div class="container-fluid">
+    <!-- head-section -->
+
+    <div class="row">
+      <div class="col-xs-12 col-sm-12">
+
+        <div class="row">
+          <br>
+          <div class="col-xs-12 col-sm-12">
+            <center>
+              <h2><strong>Naresh Institute and Technologies</strong></h2>
+            </center>
+
+          </div>
+        </div>
+        <br><br>
+
+        <!-- nav-section -->
+
+        <nav class="navbar navbar-expand-lg bg-primary navbar-dark" id="nav">
+          <div class="container-fluid">
+            <button data-bs-toggle="collapse" data-bs-target="#navItems" class="navbar-toggler">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse" id="navItems">
+              <ul class="navbar-nav me-auto">
+                <li class="nav-item"> <a class="nav-link"></a><a href="contact.html"><i class="bi bi-house"></i>Home</a> </li>
+                <li class="nav-item"> <a class="nav-link"></a><a href="contact.html"><i class="bi bi-question-circle"></i>About</a> </li>
+                <li class="nav-item"> <a class="nav-link"></a><a href=""><i class="bi bi-question-cicle"></i>Service</a> </li>
+                <li class="nav-item"> <a class="nav-link"></a><a href="contact.html"><i class="bi bi-phone"></i>Contact</a> </li>
+              </ul>
+
+              <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                  <a class=" dropdown-toggle" data-bs-toggle="dropdown" href="#"><i
+                      class="bi bi-box-arrow-right"></i>Sign In<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="login.html"><i class="bi bi-box-arrow-right"></i>Sign In</a></li>
+                    <li><a class="dropdown-item" href="register.html"><i class="bi bi-person-fill-add"></i>Sign Up</a>
+                    </li>
+                    <li><a class="dropdown-item" href="password.html"><i class="bi bi-unlock-fill"></i>Change
+                        Password</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+
+        <!-- carousel -->
+
+        <div class="carousel slide carousel-dark" data-bs-target="carousel" id="banner">
+          <div class="carousel-inner">
+
+            <div class="carousel-item active">
+              <img src="./assets/images/a1.jpg" alt="" class="w-100 d-blank">
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/images/a2.jpg" alt="" class="w-100 d-blank">
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/images/a3.jpg" alt="" class="w-100  d-blank">
+            </div>
+            <button data-bs-target="#banner" data-bs-slide="prev" class="carousel-control-prev">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#banner" data-bs-slide="next" class="carousel-control-next">
+              <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+              <button data-bs-target="#banner" data-bs-slide-to="0" class="active"></button>
+              <button data-bs-target="#banner" data-bs-slide-to="1" class="active"></button>
+              <button data-bs-target="#banner" data-bs-slide-to="2" class="active"></button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Accordian -->
+
+
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                aria-expanded="true" aria-controls="collapseOne">
+                What is the Packge ?
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                * A package is a small container in which a quantity of something is sold. Packages are either small
+                boxes made of thin cardboard, or bags or envelopes made of paper or plastic. ... When a product is
+                packaged, it is put into containers to be sold.
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Accordion Item #2
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse
+                plugin adds the appropriate classes that we use to style each element. These classes control the overall
+                appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go
+                within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div> -->
+        </div>
+        <br><br>
+        <div class="row "></div>
+        <br><br>
+
+        <div class="row ind4">
+          <div class="col-xs-12 col-sm-8">
+            <br><br><br><br>
+
+            <!-- Table -->
+            <div class="table-area">
+              <div>
+                <table class="table">
+                  <thead class="table-dark">
+                    <tr>
+                      <th class="text-center">Department</th>
+                      <th class="text-center">Included</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    .<tr>
+                      <td>
+                        <h4>
+                          <center>M.Tech</center>
+                        </h4>
+                      </td>
+                      <td>
+                        <center><i class="bi bi-check text-success"></center>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <h4>
+                          <center>B.Tech</center>
+                        </h4>
+                      </td>
+                      <td>
+                        <center><i class="bi bi-check text-success"></center>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <h4>
+                          <center>MCA</center>
+                        </h4>
+                      </td>
+                      <td>
+                        <center><i class="bi bi-check text-success"></center>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="table-img">
+                <img src="./assets/images/a2.jpg" height="200px" width="300px" alt="">
+              </div>
+            </div>
+          </div>
+
+          <br><br><br><br><br><br><br>
+
+
+          <!-- JOb-role Details -->
+
+
+
+
+          <br><br><br>
+
+
+          <div class="job">
+            <br>
+            <center>
+              <h3>What is the job</h3>
+            </center>
+            <br><br>
+            <div class="job-role">
+              <div class="">
+                <i class="bi bi-keyboard" style="font-size:48px;"></i>
+                <br><br>
+                <h4>Types of jobs</h4>
+                <p>Volcanologist. ...</p>
+                <p>Quantum physicist. ...</p>
+                <p>Oceanographer. ...</p>
+                <p>Biomedical engineer. ...</p>
+
+              </div>
+
+              <div>
+                <i class="bi bi-file-earmark-word-fill" style="font-size:48px"></i>
+                <br><br>
+                <h4>Define job profile</h4>
+                <p style=" line-height: 1.9;">Job profile developed by the personnel department of a business might
+                  include such things as job responsibilities, required qualifications, advancement prospects.</p>
+              </div>
+
+              <div class="">
+                <i class="bi bi-wordpress" style="font-size:48px;"></i>
+                <br><br>
+                <h4>Job profile summary</h4>
+                <p style=" line-height: 1.9;">Profile summary is a summary of your education, skills, career
+                  experiences, and goals.</p>
+              </div>
+
+
+              <div class="">
+                <i class="bi bi-pc-display-horizontal" style="font-size:48px;"></i>
+                <br><br>
+                <h4>The IT skills</h4>
+                <p>Coding.</p>
+                <p>Communication.</p>
+                <p>Networks.</p>
+                <p>Time Management.</p>
+                <p>More Information Technology Skills.</p>
+
+              </div>
+
+
+
+              <div class="">
+                <i class="bi bi-pc-display-horizontal" style="font-size:48px;"></i>
+                <br><br>
+                <h4>Freshers key skills</h4>
+                <p>Communication.</p>
+                <p>Ability to Work Under Pressure.</p>
+                <p>Decision Making.</p>
+                <p>Time Management.</p>
+                <p>Self-motivation.</p>
+                <p>Conflict Resolution.</p>personal skills?
+                <p>Leadership.</p>
+                <p>Adaptability.</p>
+              </div>
+
+              <div class="">
+                <i class="bi bi-pc-display-horizontal" style="font-size:48px;"></i>
+                <br><br>
+                <h4>Personal skills</h4>
+                <p style=" line-height: 1.9;">A skill is the ability to do something well, a certain competence or
+                  proficiency. Skills are typically acquired or developed through direct experiences and training, and
+                  they can require sustained effort.</p>
+              </div>
+            </div>
+          </div>
+
+
+
+          <br><br><br><br><br>
+
+
+          <!-- more on Job Role -->
+
+          <div class="indjob">
+            <div>
+              <span style="font-size: 550%; color: #ffff33;">&#9312;
+              </span>
+              Why do you want this job?<br>
+              &nbsp;
+              The hiring manager wants to: Learn about your career goals and how this position fits into your plan. Make
+              sure that you are sincerely interested in the job and will be motivated to perform if hired. Find out what
+              you know about the company, industry, position (and if you took the time to research).<br>
+            </div>
+            <div class="indimg">
+              <img src="./assets/images/ind1.jpg" width="90%" alt="">
+            </div>
+            <div style="border:0.7px solid #A9A9A9; width:100%; margin-left:0%;"></div>
+          </div>
+
+          <br><br><br>
+
+
+          <div class="cv">
+            <div class="indimg">
+              <img src="./assets/images/ind2.png" width="90%" alt="">
+            </div>
+            <div class="ind-job">
+              <span style="font-size: 550%; color: #08ec4d;">&#9313;
+              </span>
+              What is a CV example?<br>
+              <p>A resume is a brief summary. ... If you were writing your resume you would include only
+                the work information that relates specifically to the job you're applying for, but for a Curriculum
+                Vitae, you would also include all your teaching experience, lab and field work</p>
+              <div style="border:0.7px solid #A9A9A9; width:100%; margin-left:0%;"></div>
+            </div>
+          </div>
+          <br><br><br>
+
+
+          <div class="indjob">
+            <div>
+              <span style="font-size: 550%; color: #4733ff;">&#9314;
+              </span>
+              Do you need a resume for your first job?<br>
+              &nbsp;
+              When writing your first resume with no work experience, it's appropriate to include
+              casual jobs like babysitting, pet sitting, lawn mowing, and shoveling snow. All experience counts and
+              the way you present yourself, your skills, and your assets to a hiring manager begins with a strong
+              resume.<br>
+            </div>
+            <div class="indimg">
+              <img src="./assets/images/ind3.png" width="90%" alt="">
+            </div>
+            <div style="border:0.7px solid #A9A9A9; width:100%; margin-left:0%;"></div>
+          </div>
+          <br><br><br><br>
+
+
+          <div class="cv">
+            <div class="indimg">
+              <img src="./assets/images/ind4.jpg" width="90%" alt="">
+            </div>
+            <div class="ind-job">
+              <span style="font-size: 550%; color: #ff33c2;">&#9315;
+              </span>
+              I believe I will do well in this job because I have the relevant skills and it is my
+              field of interest. ... I have a confident that I can do well in the job because of self confidence,
+              positive attitude. Previous success also brings self confidence for the future success.
+              <div style="border:0.7px solid #A9A9A9; width:100%; margin-left:0%;"></div>
+            </div>
+
+
+          </div>
+
+          <div class="btnjob">
+            <button class="btn btn-primary">Request call back</button>
+
+            <button class="btn btn-danger">FAQ'S</button>
+          </div>
+          <br>
+          <br>
+          <br>
+
+          <!-- Student Deparment Details -->
+          <div class="details">
+            <h3 class="hlb">Student Department Details</h3>
+            <div class="studetails">
+              <div class="dep">
+                <i class="bi bi-hourglass" style="font-size:48px;"></i>
+                <br><br>
+                <p>Average Salary Offered</p>
+                <h4>INR 7 L per annum</h4>
+                <p>per annum</p>
+              </div>
+
+              <div class="dep">
+                <i class="bi bi-arrow-repeat" style="font-size:48px;"></i>
+                <br><br>
+                <p>Duration</p>
+                <h4>2</h4>
+                <p>years</p>
+              </div>
+
+              <div class="">
+                <i class="bi bi-hand-thumbs-up" style="font-size:48px;"></i>
+                <br><br>
+                <p>Average Fees</p>
+                <h4>INR 25,000-2L</h4>
+                <p>per annum</p>
+              </div>
+
+              <div class="">
+                <i class="bi bi-flag" style="font-size:48px;"></i>
+                <br><br>
+                <p>Indian Institute of Technology, [IIT] Kanpur</p>
+                <h4>49,035</h4>
+                <p>Kanpur</p>
+              </div>
+            </div>
+          </div>
+
+          &nbsp;
+          <!-- Student Deparment Details -->
+
+          <!-- Student Service -->
+          <h3>SERVICES</h3>
+          <div class="section">
+            <!-- card-1 -->
+           <div class="card">
+            <img src="./assets/images/s1.jpg" alt="">
+            <h5>WED DESIGN !!</h5>
+            <p>Online ordering system helps to maintain a Better Business Relationship with your customers, which is a key factor to run any successful business.</p>
+           </div>
+
+            <!-- card-2 -->
+            <div class="card">
+              <img src="./assets/images/s1.jpg" alt="">
+              <h5>WED DESIGN !!</h5>
+              <p>Online ordering system helps to maintain a Better Business Relationship with your customers, which is a key factor to run any successful business.</p>
+             </div>
+
+            <!-- card-3 -->
+            <div class="card">
+              <img src="./assets/images/s1.jpg" alt="">
+              <h5>WED DESIGN !!</h5>
+              <p>Online ordering system helps to maintain a Better Business Relationship with your customers, which is a key factor to run any successful business.</p>
+             </div>
+            </div>
+
+
+          <!-- Footer -->
+          <footer>
+            <h3 class="text-light">Naresh Technologies </h3>
+
+            <div class="footer-data text-light">
+              <div>
+                <ul type="circle">
+                  <li><a href="#"><span class="bi bi-facebook"></span>facebook</a></li>
+                  <li><a href="#"><span class="bi bi-instagram"></span>instagram</a></li>
+                  <li><a href="#"><span class="bi bi-youtube"></span>Youtobe</a></li>
+                  <li><a href="#"><span class="bi bi-twitter"></span>twitter</a></li>
+                </ul>
+              </div>
+              <div>
+                <ul type="circle">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">about</a></li>
+                  <li><a href="#">service</a></li>
+                  <li><a href="#">contact</a></li>
+
+                </ul>
+              </div>
+              <div>
+                <ul type="circle">
+                  <li>Name : Naresh Istitute</li>
+                  <li>Email : info@nareshit.com</li>
+                  <li>Contact : +91-xxxxxxxxxx</li>
+                  <li>Address : Sr nagar, Hyderabad, Telangana, India</li>
+
+                </ul>
+              </div>
+
+            </div>
+          </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <script src="node_modules/jquery/dist/jquery.js"></script>
+          <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
