@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="CSS/style.css">
+    <style>
+  
+
+    </style>
 </head>
 <body>
     <div>
@@ -55,6 +59,61 @@
               </nav>
       
     </div>
+
+
+    <!-- Register -->
+    <section class="d-flex justify-content-center align-content-center m-4">
+      <form class="border border-1 bg-light text-dark border-dark rounded rounded-2 p-4 w-30">
+    <h2>Registration Form</h2>
+    <form>
+      <div class="form-group">
+        <label for="username">Full Nmae:</label>
+        <input type="text" id="username" name="username" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="mobile">Mobile:</label>
+        <input type="mobile" id="mobile" name="mobile" required>
+      </div>
+      <div class="form-group">
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required >
+      </div>
+      <div class="form-group">
+        <h6>Image:</h6>
+        <label for="file-upload" class="custom-file-upload"></label>
+        <input id="file-upload" type="file" name="file-upload" accept="image/*">
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <div class="form-group">
+        <label for="password"> Confirm Password</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <div class="form-group">
+       Gender : Male <input type="radio" name="myGender">
+                Female <input type="radio" name="myGender">
+      </div>
+      <div class="checkbox">
+        <label><input type="checkbox" id="terms" name="terms" required>I've read and Accept the 
+              <a href="#myModal"  data-toggle="modal" data-target="" class="text-danger">Terms and Conditions</a></label>                       
+       </div>
+       <div class="row btngrp">
+        <div class="col-xs-8 col-sm-8 mt-4 m-3">
+         <a href="login.html"><button type="button" name="submit" class="btn btn-warning btn-md pull-left">Already you have an account</button></a>   
+        </div>
+      <div class="col-xs-4 col-sm-3 mt-4">
+        <button type="submit" class="btn btn-success btn-md pull-right" id="submitbtn"><span>Register</span></button>
+      </div>
+      </div>    
+  </form>
+  </section>
+  <!-- Register End -->
    <!-- Footer -->
     <div>
         <footer>
